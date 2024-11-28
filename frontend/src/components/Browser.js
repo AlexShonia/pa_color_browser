@@ -7,8 +7,8 @@ import ValidationError from '../util/ValidationError';
 import Image from './Image';
 import FormField from './FormField';
 import ColorPalette from './ColorPicker';
-import '../CSS/browser.scss';
-import '../CSS/tooltip.scss';
+import '../CSS/browser.css';
+import '../CSS/tooltip.css';
 import loadingIcon from '../icons/loading.gif';
 
 export default function Browser({state, setState}) {
@@ -167,8 +167,9 @@ export default function Browser({state, setState}) {
                     hasMore={moreImages}
                     loader={<p>Loading more images</p>}
                 >
-                    {data.map((image, i) =>
-                        <Image image={image} key={i} state={state} setState={setState}/>
+                
+                    {data.map((image, i) => {
+                        <Image image={image} key={i} state={state} setState={setState}/>}
                     )}
                     {data.length === 50? <button onClick={()=>getImages()}>Load more</button>:null}
                 </InfiniteScroll>

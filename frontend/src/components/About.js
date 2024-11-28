@@ -1,6 +1,6 @@
 import React from 'react';
 import { ReactComponent as GoBackIcon } from '../icons/gobackicon.svg';
-import '../CSS/about.scss';
+import '../CSS/about.css';
 import { Link } from 'react-router-dom';
 
 export default function About(){

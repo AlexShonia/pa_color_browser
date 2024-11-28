@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Browser from '../components/Browser';
 import DetailView from '../components/DetailView';
 import About from '../components/About';

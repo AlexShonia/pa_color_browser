@@ -1,6 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import '../CSS/detailView.scss';
-import {CopyToClipboard} from 'react-copy-to-clipboard';
 import { useParams, Link } from 'react-router-dom';
 import Api from '../util/Api';
 import ValidationError from '../util/ValidationError';
@@ -8,6 +6,7 @@ import Image from './Image';
 import { ReactComponent as GoBackIcon } from '../icons/gobackicon.svg';
 import { ReactComponent as LaunchIcon } from '../icons/launchicon.svg';
 import loadingIcon from '../icons/loading.gif';
+import CopyToClipboard from 'react-copy-to-clipboard';
 
 export default function DetailView({state, setState}){
     const [data, setData] = useState([]);

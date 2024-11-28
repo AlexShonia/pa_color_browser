@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from 'react';
 import { ChromePicker } from 'react-color';
-import '../CSS/colorPicker.scss';
+import '../CSS/colorPicker.css';
 
 export default function ColorPicker({state, setState}){
     const [selectedIndex, setSelectedIndex] = useState();
