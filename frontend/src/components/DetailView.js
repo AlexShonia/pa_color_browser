@@ -7,6 +7,7 @@ import { ReactComponent as GoBackIcon } from '../icons/gobackicon.svg';
 import { ReactComponent as LaunchIcon } from '../icons/launchicon.svg';
 import loadingIcon from '../icons/loading.gif';
 import CopyToClipboard from 'react-copy-to-clipboard';
+import "../CSS/detailView.css";
 
 export default function DetailView({state, setState}){
     const [data, setData] = useState([]);
