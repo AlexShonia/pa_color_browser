@@ -26,10 +26,9 @@ export default function About(){
 
                 <p>This site was created by <a href="http://DanielSimu.com">Daniel Simu aka Hapiel</a> and <a href="https://nl.linkedin.com/in/marinus-van-den-oever-0aa46117a">Marinus</a> as a research project in HCI, you can read the paper about it here.</p>
 
-                <p>Kindly rehosted with permission by <a href="https://github.com/AlexShonia">Alex Shonia</a>
+                <p>Kindly rehosted with permission by <a href="https://github.com/AlexShonia">Alex Shonia</a> </p>
 
                 <p>The <a href="https://github.com/hapiel/pa_color_browser/">source code for this website</a> and the <a href="https://github.com/hapiel/pa_color_db">source code for building the database</a> are both on github.</p>
-
 
             </div>
         </div> 
